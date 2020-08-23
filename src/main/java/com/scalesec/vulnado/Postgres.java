@@ -61,6 +61,7 @@ public class Postgres {
     // Java program to calculate MD5 hash value
     public static String md5(String input)
     {
+/*        
         try {
 
             // Static getInstance method is called with hashing MD5
@@ -85,6 +86,8 @@ public class Postgres {
         catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
         }
+*/           
+        return input;
     }
 
     private static void insertUser(String username, String password) {
